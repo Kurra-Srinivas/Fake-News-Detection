@@ -4,6 +4,7 @@
 
 ## 🚀 Overview
 Welcome to the **Fake News Detection System**! This project leverages **Natural Language Processing (NLP)** to classify news articles as **Fake** or **Real** using a fine-tuned **BERT** model. Built with Python and deployed as a user-friendly **Streamlit** app, it showcases an end-to-end machine learning pipeline—from data preprocessing to model deployment. Whether you're a data science enthusiast or a recruiter, this project demonstrates skills in NLP, deep learning, and web app deployment.
+Dataset used:(https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
 
 ### 📊 Key Achievements
 - Fine-tuned a BERT model on a dataset of news articles, achieving **99.5% accuracy** on the initial dataset.
@@ -74,4 +75,7 @@ The app is deployed on **Streamlit Cloud** for easy access:
 - **Streamlit Cloud**: For app deployment.
 
 ## 📬 Contact
+- 📧 Email:(srinivaskurra886@gmail.com)
+- 📧 Linkedin:(https://www.linkedin.com/in/kurra-srinivas-31727420b/)
+- 📸 Instagram:(https://www.instagram.com/_srinivas.kurra/profilecard/?igsh=MWxuNnNpNXc2anhhMg==)
 
