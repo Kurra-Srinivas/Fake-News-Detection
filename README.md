@@ -11,8 +11,6 @@ Welcome to the **Fake News Detection System**! This project leverages **Natural 
 - Deployed the app on **Streamlit Cloud** for public access.
 - Hosted the project on **GitHub** with a clean, well-documented repository.
 
-*Note*: The app currently predicts all inputs as "Fake" due to overfitting on a small dataset. Training on the full dataset is in progress to improve accuracy.
-
 ## 🛠️ Features
 - **Real-Time Classification**: Input a news article and get an instant prediction ("Fake" or "Real").
 - **User-Friendly Interface**: Built with Streamlit for an intuitive experience.
@@ -75,17 +73,5 @@ The app is deployed on **Streamlit Cloud** for easy access:
 - **GitHub**: For version control and hosting.
 - **Streamlit Cloud**: For app deployment.
 
-## 📈 Future Improvements
-- **Train on Full Dataset**: Currently training on a small dataset (~1000 samples). Training on the full dataset will improve prediction accuracy.
-- **Resolve Local Runtime Error**: Investigating compatibility issues between Streamlit and PyTorch for local deployment.
-- **Add Visualizations**: Include prediction confidence scores and dataset insights in the app.
-
 ## 📬 Contact
-Have questions or feedback? Feel free to reach out!
 
-- **GitHub**: [your-username](https://github.com/your-username)
-- **Email**: your-email@example.com
-
----
-
-*Built with ❤️ by [Your Name] on June 14, 2025.*
