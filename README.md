@@ -60,12 +60,6 @@ Follow these steps to run the project locally:
 
 *Note*: If you encounter a `RuntimeError: no running event loop` locally, try deploying on Streamlit Cloud or downgrading PyTorch to 2.5.0.
 
-## ☁️ Deployment
-The app is deployed on **Streamlit Cloud** for easy access:
-
-- **Live Demo**: [Link to your Streamlit Cloud app] (Replace with your app URL after deployment)
-- **GitHub Repository**: [Link to your GitHub repo] (Replace with your repo URL)
-
 ## 🔧 Tools and Technologies
 - **Python**: Core programming language.
 - **Hugging Face Transformers**: For BERT model fine-tuning.
