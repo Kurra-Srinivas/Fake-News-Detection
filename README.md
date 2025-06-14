@@ -1,23 +1,26 @@
-📰 Fake News Detection System
+# 📰 Fake News Detection System
 
-🚀 Overview
-Welcome to the Fake News Detection System! This project leverages Natural Language Processing (NLP) to classify news articles as Fake or Real using a fine-tuned BERT model. Built with Python and deployed as a user-friendly Streamlit app, it showcases an end-to-end machine learning pipeline—from data preprocessing to model deployment. Whether you're a data science enthusiast or a recruiter, this project demonstrates skills in NLP, deep learning, and web app deployment.
-📊 Key Achievements
+![Fake News Detection Banner](https://img.shields.io/badge/Project-Fake%20News%20Detection-blueviolet?style=for-the-badge)
 
-Fine-tuned a BERT model on a dataset of news articles, achieving 99.5% accuracy on the initial dataset.
-Developed a Streamlit app for real-time news classification.
-Deployed the app on Streamlit Cloud for public access.
-Hosted the project on GitHub with a clean, well-documented repository.
+## 🚀 Overview
+Welcome to the **Fake News Detection System**! This project leverages **Natural Language Processing (NLP)** to classify news articles as **Fake** or **Real** using a fine-tuned **BERT** model. Built with Python and deployed as a user-friendly **Streamlit** app, it showcases an end-to-end machine learning pipeline—from data preprocessing to model deployment. Whether you're a data science enthusiast or a recruiter, this project demonstrates skills in NLP, deep learning, and web app deployment.
 
-Note: The app currently predicts all inputs as "Fake" due to overfitting on a small dataset. Training on the full dataset is in progress to improve accuracy.
-🛠️ Features
+### 📊 Key Achievements
+- Fine-tuned a BERT model on a dataset of news articles, achieving **99.5% accuracy** on the initial dataset.
+- Developed a **Streamlit app** for real-time news classification.
+- Deployed the app on **Streamlit Cloud** for public access.
+- Hosted the project on **GitHub** with a clean, well-documented repository.
 
-Real-Time Classification: Input a news article and get an instant prediction ("Fake" or "Real").
-User-Friendly Interface: Built with Streamlit for an intuitive experience.
-BERT-Powered: Uses a fine-tuned BERT model for high-accuracy text classification.
-End-to-End Pipeline: Includes data preprocessing, model training, and deployment.
+*Note*: The app currently predicts all inputs as "Fake" due to overfitting on a small dataset. Training on the full dataset is in progress to improve accuracy.
 
-📂 Project Structure
+## 🛠️ Features
+- **Real-Time Classification**: Input a news article and get an instant prediction ("Fake" or "Real").
+- **User-Friendly Interface**: Built with Streamlit for an intuitive experience.
+- **BERT-Powered**: Uses a fine-tuned BERT model for high-accuracy text classification.
+- **End-to-End Pipeline**: Includes data preprocessing, model training, and deployment.
+
+## 📂 Project Structure
+```
 Fake news Detection project/
 ├── app.py                  # Streamlit app for news classification
 ├── requirements.txt        # Dependencies for deployment
@@ -27,60 +30,62 @@ Fake news Detection project/
 ├── results/                # Training logs and checkpoints
 ├── README.md               # Project documentation
 └── .gitignore              # Git ignore file
+```
 
-🖥️ Setup and Installation
+## 🖥️ Setup and Installation
 Follow these steps to run the project locally:
 
-Clone the Repository:
-git clone https://github.com/your-username/fake-news-detection.git
-cd fake-news-detection
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/fake-news-detection.git
+   cd fake-news-detection
+   ```
 
+2. **Create a Virtual Environment**:
+   ```bash
+   python -m venv env
+   .\env\Scripts\activate  # On Windows
+   # source env/bin/activate  # On macOS/Linux
+   ```
 
-Create a Virtual Environment:
-python -m venv env
-.\env\Scripts\activate  # On Windows
-# source env/bin/activate  # On macOS/Linux
+3. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+4. **Run the Streamlit App**:
+   ```bash
+   streamlit run app.py
+   ```
+   - Open `http://localhost:8501` in your browser to use the app.
 
-Install Dependencies:
-pip install -r requirements.txt
+*Note*: If you encounter a `RuntimeError: no running event loop` locally, try deploying on Streamlit Cloud or downgrading PyTorch to 2.5.0.
 
+## ☁️ Deployment
+The app is deployed on **Streamlit Cloud** for easy access:
 
-Run the Streamlit App:
-streamlit run app.py
+- **Live Demo**: [Link to your Streamlit Cloud app] (Replace with your app URL after deployment)
+- **GitHub Repository**: [Link to your GitHub repo] (Replace with your repo URL)
 
+## 🔧 Tools and Technologies
+- **Python**: Core programming language.
+- **Hugging Face Transformers**: For BERT model fine-tuning.
+- **Streamlit**: For building the interactive web app.
+- **Jupyter Notebook**: For model training and experimentation.
+- **GitHub**: For version control and hosting.
+- **Streamlit Cloud**: For app deployment.
 
-Open http://localhost:8501 in your browser to use the app.
+## 📈 Future Improvements
+- **Train on Full Dataset**: Currently training on a small dataset (~1000 samples). Training on the full dataset will improve prediction accuracy.
+- **Resolve Local Runtime Error**: Investigating compatibility issues between Streamlit and PyTorch for local deployment.
+- **Add Visualizations**: Include prediction confidence scores and dataset insights in the app.
 
-
-
-Note: If you encounter a RuntimeError: no running event loop locally, try deploying on Streamlit Cloud or downgrading PyTorch to 2.5.0.
-☁️ Deployment
-The app is deployed on Streamlit Cloud for easy access:
-
-Live Demo: [Link to your Streamlit Cloud app] (Replace with your app URL after deployment)
-GitHub Repository: [Link to your GitHub repo] (Replace with your repo URL)
-
-🔧 Tools and Technologies
-
-Python: Core programming language.
-Hugging Face Transformers: For BERT model fine-tuning.
-Streamlit: For building the interactive web app.
-Jupyter Notebook: For model training and experimentation.
-GitHub: For version control and hosting.
-Streamlit Cloud: For app deployment.
-
-📈 Future Improvements
-
-Train on Full Dataset: Currently training on a small dataset (~1000 samples). Training on the full dataset will improve prediction accuracy.
-Resolve Local Runtime Error: Investigating compatibility issues between Streamlit and PyTorch for local deployment.
-Add Visualizations: Include prediction confidence scores and dataset insights in the app.
-
-📬 Contact
+## 📬 Contact
 Have questions or feedback? Feel free to reach out!
 
-GitHub: your-username
-Email: your-email@example.com
+- **GitHub**: [your-username](https://github.com/your-username)
+- **Email**: your-email@example.com
 
+---
 
-Built with ❤️ by [Your Name] on June 14, 2025.
+*Built with ❤️ by [Your Name] on June 14, 2025.*
